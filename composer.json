@@ -1,5 +1,5 @@
 {
-  "name": "codepress/code-database",
+  "name": "yurigiovani/code-database",
   "require": {
     "php": ">=5.5.9",
     "illuminate/database": "~5.2"
