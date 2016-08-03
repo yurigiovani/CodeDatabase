@@ -1,16 +1,5 @@
 {
-  "name": "yurigiovani/code-database",
-  "description": "Repository pattern Library based in Laravel 5",
-  "license": "MIT",
-  "keywords": [
-    "laravel",
-    "repository",
-    "repository pattern"
-  ],
-  "authors": [{
-      "name": "Yuri Giovani",
-      "email": "yurigiovani.dias@gmail.com"
-  }],
+  "name": "codepress/code-database",
   "require": {
     "php": ">=5.5.9",
     "illuminate/database": "~5.2"
