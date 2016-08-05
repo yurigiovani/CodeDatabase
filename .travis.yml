@@ -3,12 +3,12 @@ language: php
 php:
   - '5.5'
 
-  env:
-    global:
-      - 'DB_CONNECTION=mysql'
-      - 'DB_HOST=localhost'
-      - 'DB_DATABASE=codedatabase'
-      - 'DB_USERNAME=travis'
+env:
+  global:
+    - 'DB_CONNECTION=mysql'
+    - 'DB_HOST=localhost'
+    - 'DB_DATABASE=codedatabase'
+    - 'DB_USERNAME=travis'
 
 before_install:
   - composer selfupdate
