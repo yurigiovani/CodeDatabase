@@ -18,6 +18,6 @@ class CreateCodeCategoryTable
 
     public function down()
     {
-        Schema::drop('codedatabase_catgories');
+        Schema::drop('codedatabase_categories');
     }
 }

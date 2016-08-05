@@ -19,8 +19,6 @@ class AbstractRepositoryTestCase extends AbstractTestCase
         Category::create([  'name'    =>  'Category',
                             'description'   => 'Description category'
                         ]);
-
-        echo Category::all()->first()->name;
     }
 
     public function test_if_implements_repositoryinterface()
